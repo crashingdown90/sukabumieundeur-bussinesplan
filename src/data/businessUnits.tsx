@@ -229,6 +229,24 @@ export const businessUnits = [
         content: "Estimasi Capital Expenditure (CAPEX): Rp 150.000.000 - Rp 300.000.000\n\nAlokasi Dana Utama:\nPembelian bahan mentah (Fabrics) dalam kuantitas grosir, biaya operasional vendor produksi (CMT), pendirian toko fisik/digital (Flagship Store), dan modal pemasaran kampanye koleksi perdana.\n\nPengembalian Modal (ROI) diproyeksikan sangat cepat (Fase Bulan ke-6) karena perputaran uang tunai ritel (Cash Conversion Cycle) yang sangat singkat.",
         visualIcon: <Banknote />,
         imageUrl: "/images/talent-finance.png"
+      },
+      {
+        title: "Rincian Alokasi Modal",
+        heading: "Distribusi Anggaran CAPEX Terfokus",
+        content: "Detail Penggunaan Modal Kerja (Rp 150 Juta - Rp 300 Juta):\n\n• Produksi Inventaris Awal (40%): Pembelian material kain (Cotton Combed/Fleece) kualitas premium berskala grosir dan biaya potong-jahit-sablon (CMT) untuk 3 koleksi pertama.\n• Infrastruktur Fisik & Digital (30%): Renovasi interior toko andalan (Flagship Store), penyewaan gudang inventarisasi (Warehousing), dan pembangunan sistem e-commerce mandiri.\n• Pemasaran Pra-Peluncuran (20%): Sesi pemotretan komersial premium (Lookbook), seeding produk ke KOL, dan iklan Meta Ads.\n• Dana Cadangan/Bantalan Kas (10%): Likuiditas darurat untuk operasional 3 bulan pertama.",
+        visualIcon: <Banknote />
+      },
+      {
+        title: "Struktur Biaya Operasional",
+        heading: "Efisiensi OPEX Skala Ritel",
+        content: "Biaya Operasional (OPEX) bulanan SE Merchandise dirancang sangat ramping:\n\n• Fixed Costs (Biaya Tetap): Gaji tim inti (Desainer Grafis, Admin E-commerce, Penjaga Toko), sewa lokasi fisik, dan langganan perangkat lunak (Sistem Kasir/POS, Shopify).\n• Variable Costs (Biaya Variabel): Biaya pengiriman logistik (Shipping), komisi penjualan afiliasi, dan anggaran periklanan harian (Ad Spend) yang bisa ditingkatkan atau diturunkan sesuai performa penjualan harian.\n• Efisiensi: Tidak ada mesin pabrik yang harus dirawat, karena seluruh beban produksi (Manufaktur) dialihdayakan ke vendor garmen terpercaya.",
+        visualIcon: <Target />
+      },
+      {
+        title: "Sistem Kemitraan",
+        heading: "Skema Kerja Sama Eksternal & Internal",
+        content: "SE Apparel membuka dua model ekspansi utama:\n\n1. Konsinyasi B2B (Titip Jual): Meletakkan stok pakaian di toko ritel pihak ketiga (Distro/Concept Stores) di kota-kota besar (Bandung, Jakarta) dengan potongan margin 20-30% bagi penyedia tempat.\n2. Maklon / White-Labeling B2B: Menerima pesanan seragam korporat atau merchandise komunitas eksternal. Klien mendanai 100% biaya produksi (Sistem DP 50%), sehingga SE Apparel meraup margin jasa produksi tanpa mengeluarkan modal sepeserpun.\n3. Kolaborasi Lisensi (IP Collab): Pembagian laba bersih (Profit Sharing 50:50) untuk koleksi spesial yang menampilkan karya seniman visual ternama.",
+        visualIcon: <Briefcase />
       }
     ]
   },
