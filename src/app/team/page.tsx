@@ -46,7 +46,7 @@ export default function TeamPage() {
               <div style={{ width: '120px', height: '120px', borderRadius: '50%', background: '#e2e8f0', margin: '0 auto 1.5rem auto', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                 <UserCheck size={48} color="#94a3b8" />
               </div>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.25rem' }}>Drefan (Founder)</h3>
+              <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.25rem' }}>A. Rivana (Founder)</h3>
               <p style={{ color: 'var(--accent)', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.875rem', marginBottom: '1.5rem' }}>Chief Executive Officer</p>
               <p style={{ color: 'var(--muted)', lineHeight: '1.6', fontSize: '0.95rem' }}>
                 Bertanggung jawab penuh atas arah strategis 10 unit bisnis, hubungan investor (investor relations), serta rencana ekspansi perusahaan. Memiliki rekam jejak yang terbukti dalam mengelola ekosistem hiburan dan acara berskala besar di wilayah Jawa Barat.
