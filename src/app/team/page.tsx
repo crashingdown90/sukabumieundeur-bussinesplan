@@ -108,7 +108,7 @@ export default function TeamPage() {
             </div>
 
             {/* Level 3 - Divisions */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', width: '100%' }}>
+            <div className="grid grid-cols-3" style={{ gap: '1.5rem', width: '100%' }}>
               
               <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
                 <h4 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>Divisi Entertainment & Event</h4>

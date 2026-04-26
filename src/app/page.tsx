@@ -37,7 +37,7 @@ export default function Home() {
           <p className="hero-subtitle" style={{ color: '#94a3b8', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>
             Transformasi Strategis PT. Sukabumi Eundeur Holding: Membangun Ekosistem Industri Kreatif dan Hiburan Terpadu di Jawa Barat.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="#units" className="btn btn-primary">Eksplorasi Portofolio Bisnis</a>
             <a href="#financial" className="btn btn-secondary" style={{ backgroundColor: 'rgba(255,255,255,0.05)', color: '#ffffff', borderColor: 'rgba(255,255,255,0.2)' }}>Proyeksi Modal & Finansial</a>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
       <section id="swot" className="section" style={{ background: '#f8fafc' }}>
         <div className="animate-on-scroll opacity-0">
           <h2 className="section-title">Holding SWOT Analysis</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
+          <div className="swot-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
             <div style={{ background: 'white', padding: '2rem', borderRadius: '16px', borderTop: '4px solid #10b981', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)' }}>
               <h3 style={{ color: '#10b981', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>S</span>trengths (Kekuatan)

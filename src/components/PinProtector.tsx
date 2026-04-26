@@ -71,7 +71,7 @@ export default function PinProtector({ children }: { children: React.ReactNode }
     }}>
       <div style={{
         background: '#ffffff',
-        padding: '3rem',
+        padding: '2rem',
         borderRadius: '24px',
         border: '1px solid rgba(0, 0, 0, 0.1)',
         display: 'flex',
