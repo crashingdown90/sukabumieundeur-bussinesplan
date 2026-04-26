@@ -49,13 +49,13 @@ export default function RootLayout({
             zIndex: 9999, 
             pointerEvents: 'none', 
             opacity: 0.35, 
-            fontSize: '0.65rem', 
+            fontSize: '0.5rem', 
             fontWeight: 600, 
             color: '#64748b',
             letterSpacing: '0.05em',
             fontFamily: 'monospace'
           }}>
-            ALL RIGHTS RESERVED. DUPLICATION IS PROHIBITED WITHOUT PERMISSION FROM SUKABUMI EUNDEUR HOLDING & DEMA DIGITAL ASIA.
+            CONFIDENTIAL & PROPRIETARY. ALL RIGHTS RESERVED. UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS STRICTLY PROHIBITED WITHOUT EXPLICIT CONSENT FROM PT. SUKABUMI EUNDEUR HOLDING & DEMA DIGITAL ASIA.
           </div>
         </PinProtector>
       </body>
