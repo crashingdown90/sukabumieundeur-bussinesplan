@@ -40,6 +40,23 @@ export default function RootLayout({
               Consulting bussines partner : <a href="https://www.demadigitalasia.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Dema Digital Asia</a>.
             </p>
           </footer>
+          
+          {/* Universal Global Watermark */}
+          <div style={{ 
+            position: 'fixed', 
+            bottom: '10px', 
+            left: '15px', 
+            zIndex: 9999, 
+            pointerEvents: 'none', 
+            opacity: 0.35, 
+            fontSize: '0.65rem', 
+            fontWeight: 600, 
+            color: '#64748b',
+            letterSpacing: '0.05em',
+            fontFamily: 'monospace'
+          }}>
+            ALL RIGHTS RESERVED. DUPLICATION IS PROHIBITED WITHOUT PERMISSION FROM SUKABUMI EUNDEUR HOLDING & DEMA DIGITAL ASIA.
+          </div>
         </PinProtector>
       </body>
     </html>
