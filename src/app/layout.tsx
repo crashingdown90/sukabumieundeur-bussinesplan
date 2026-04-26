@@ -36,6 +36,9 @@ export default function RootLayout({
             <p className="logo" style={{ color: 'white', marginBottom: '1rem' }}>PT. SUKABUMI EUNDEUR HOLDING</p>
             <p>Sukabumi, Jawa Barat, Indonesia</p>
             <p style={{ marginTop: '2rem', fontSize: '0.875rem' }}>&copy; {new Date().getFullYear()} PT. Sukabumi Eundeur Holding. All rights reserved.</p>
+            <p style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: '#94a3b8', letterSpacing: '0.05em' }}>
+              Consulting bussines partner : <a href="https://www.demadigitalasia.com" target="_blank" rel="noopener noreferrer" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Dema Digital Asia</a>.
+            </p>
           </footer>
         </PinProtector>
       </body>
