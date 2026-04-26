@@ -25,6 +25,7 @@ export default function RootLayout({
             </a>
             <nav style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
               <a href="/business-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Business Model</a>
+              <a href="/investment-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Investment Model</a>
               <a href="/team" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Management</a>
               <a href="/roadmap" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Roadmap</a>
               <a href="/capex" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Financials</a>
