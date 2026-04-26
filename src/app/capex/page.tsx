@@ -94,6 +94,59 @@ export default function CapexPage() {
         </div>
       </section>
 
+      {/* Partnership Financial Models Section */}
+      <section className="section" style={{ padding: '6rem 2rem', background: '#0f172a' }}>
+        <div className="animate-on-scroll opacity-0" style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <h2 className="section-title" style={{ color: 'white', textAlign: 'center', marginBottom: '4rem' }}>Proyeksi CAPEX, OPEX & Pendapatan Berdasarkan Model Eksekusi</h2>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
+            
+            {/* Model 1: Dikerjakan Langsung */}
+            <div style={{ background: 'white', padding: '2.5rem', borderRadius: '24px', display: 'flex', flexDirection: 'column', gap: '1.5rem', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1)' }}>
+              <div>
+                <div style={{ display: 'inline-block', background: '#fee2e2', color: '#b91c1c', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, marginBottom: '1rem', letterSpacing: '0.05em' }}>HIGH RISK, HIGH REWARD</div>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Dikerjakan Langsung</h3>
+                <p style={{ color: 'var(--muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>Unit bisnis dieksekusi, dimodali, dan dikelola 100% oleh manajemen PT. Sukabumi Eundeur Holding.</p>
+              </div>
+              <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#ef4444' }}>CAPEX: Sangat Tinggi</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>100% belanja modal awal dibebankan pada kas holding.</span></div>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#f59e0b' }}>OPEX: Tinggi (Beban Tetap)</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Menanggung penuh gaji SDM bulanan dan pemeliharaan aset konstan.</span></div>
+                <div><strong style={{ color: '#10b981' }}>Pendapatan: 100% Laba Bersih</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Tidak ada pembagian hasil. Retensi profit sangat maksimal.</span></div>
+              </div>
+            </div>
+
+            {/* Model 2: Dikerjasamakan */}
+            <div style={{ background: 'white', padding: '2.5rem', borderRadius: '24px', display: 'flex', flexDirection: 'column', gap: '1.5rem', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1)', border: '2px solid var(--accent)' }}>
+              <div>
+                <div style={{ display: 'inline-block', background: '#ffedd5', color: '#ea580c', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, marginBottom: '1rem', letterSpacing: '0.05em' }}>OPTIMAL SCALING</div>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Kemitraan (Joint Venture / Franchise)</h3>
+                <p style={{ color: 'var(--muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>Holding berkolaborasi dengan investor/mitra menggunakan sistem bagi modal atau sewa lisensi merek.</p>
+              </div>
+              <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#3b82f6' }}>CAPEX: Menengah / Ringan</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Modal disuntik sebagian atau seluruhnya oleh mitra investor.</span></div>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#10b981' }}>OPEX: Rendah</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Beban operasional harian dilimpahkan kepada operator/mitra lapangan.</span></div>
+                <div><strong style={{ color: '#3b82f6' }}>Pendapatan: Profit Sharing / Royalty Fee</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Mendapatkan persentase bagi hasil (misal: 60:40) atau tarif royalti bulanan.</span></div>
+              </div>
+            </div>
+
+            {/* Model 3: Dilelang Vendor */}
+            <div style={{ background: 'white', padding: '2.5rem', borderRadius: '24px', display: 'flex', flexDirection: 'column', gap: '1.5rem', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1)' }}>
+              <div>
+                <div style={{ display: 'inline-block', background: '#f1f5f9', color: '#475569', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 800, marginBottom: '1rem', letterSpacing: '0.05em' }}>LOW RISK, LOW MARGIN</div>
+                <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Sistem Vendor (Outsourced)</h3>
+                <p style={{ color: 'var(--muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>Holding tidak memiliki aset fisik, melainkan mendelegasikan eksekusi sepenuhnya kepada pihak ketiga (vendor).</p>
+              </div>
+              <div style={{ background: '#f8fafc', padding: '1.5rem', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#10b981' }}>CAPEX: Sangat Rendah (Nol)</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Tidak ada pengadaan aset. Modal dialokasikan murni untuk pemasaran.</span></div>
+                <div style={{ marginBottom: '1rem' }}><strong style={{ color: '#ef4444' }}>OPEX: Sangat Variabel</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Membayar biaya sewa borongan per proyek yang nilainya sangat tinggi.</span></div>
+                <div><strong style={{ color: '#ef4444' }}>Pendapatan: Margin Tipis</strong> <br/><span style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>Potensi laba tereduksi drastis karena besarnya biaya penyewaan vendor.</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Justification Section */}
       <section className="section" style={{ background: '#f8fafc', padding: '6rem 2rem' }}>
         <div className="animate-on-scroll opacity-0" style={{ maxWidth: '1000px', margin: '0 auto' }}>
