@@ -23,7 +23,8 @@ export default function RootLayout({
             <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
               <img src="/images/Logo_Sukabumi Endeur.png" alt="Sukabumi Eundeur Holding" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
             </a>
-            <nav style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+            <nav style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
+              <a href="/" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Unit Bisnis</a>
               <a href="/business-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Business Model</a>
               <a href="/investment-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Investment Model</a>
               <a href="/team" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Management</a>
