@@ -43,6 +43,9 @@ export default function InvestmentModelPage() {
             <AudioWaveform size={32} color="var(--accent)" />
             <h2 className="section-title" style={{ margin: 0 }}>Desentralisasi Operasional Bisnis</h2>
           </div>
+          
+          <img src="/images/festival_crowd.png" alt="Massive Rock Festival Crowd" style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '24px', marginBottom: '3rem', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1)' }} className="animate-on-scroll opacity-0" />
+
           <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: '1.125rem', marginBottom: '4rem', lineHeight: '1.8' }}>
             Sebagai entitas induk (Holding Company), PT. Sukabumi Eundeur Holding menerapkan model <strong>Strategic Business Unit (SBU)</strong> yang terdesentralisasi. Setiap unit bisnis (seperti F&B, Equipment Rentals, atau Venues) dirancang agar dapat diinkubasi dan dikelola secara otonom oleh mitra atau investor strategis dengan skema kemitraan yang transparan.
           </p>
@@ -76,10 +79,12 @@ export default function InvestmentModelPage() {
       {/* Skema Kemitraan */}
       <section className="section" style={{ background: 'white', padding: '6rem 2rem' }}>
         <div className="animate-on-scroll opacity-0" style={{ maxWidth: '1000px', margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '4rem', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '3rem', justifyContent: 'center' }}>
             <Flame size={32} color="#10b981" />
             <h2 className="section-title" style={{ margin: 0 }}>Opsi Skema Investasi</h2>
           </div>
+
+          <img src="/images/creative_meeting.png" alt="Creative Corporate Meeting in Music Studio" style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '24px', marginBottom: '4rem', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.1)' }} className="animate-on-scroll opacity-0" />
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             
