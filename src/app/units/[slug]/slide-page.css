@@ -1,0 +1,244 @@
+/* Presentation Slide CSS */
+.presentation-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.presentation-header {
+  height: 80px;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.presentation-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.presentation-category {
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  margin-left: 1rem;
+}
+
+.presentation-close {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #475569;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+
+.presentation-close:hover {
+  color: #0f172a;
+  background: #f8fafc;
+  border-color: #94a3b8;
+}
+
+.presentation-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.slide-card {
+  width: 95vw;
+  max-width: 1400px;
+  min-height: 650px;
+  background: white;
+  border-radius: 16px;
+  padding: 4rem 5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.slide-counter {
+  background: var(--accent);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.slide-title-label {
+  color: #64748b;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+}
+
+.slide-heading {
+  font-size: 2.25rem;
+  line-height: 1.3;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+
+.slide-content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #334155;
+  white-space: pre-wrap;
+  text-align: justify;
+}
+
+.presentation-footer {
+  height: 100px;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.presentation-nav-btn:hover:not(:disabled) {
+  background: #f8fafc;
+  border-color: #94a3b8;
+  transform: translateY(-2px);
+}
+
+.presentation-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.presentation-dots {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.presentation-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.presentation-dot:hover {
+  background: #94a3b8;
+}
+
+.presentation-dot.active {
+  background: var(--accent);
+  transform: scale(1.3);
+}
+
+/* Animations */
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-card {
+  animation: slideUpFade 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .slide-card {
+    padding: 3rem;
+  }
+  .slide-heading {
+    font-size: 2.5rem;
+  }
+  .slide-content {
+    font-size: 1.25rem;
+  }
+  .presentation-brand span:not(.presentation-category) {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentation-header {
+    padding: 0 1rem;
+  }
+  .presentation-footer {
+    padding: 0 1rem;
+  }
+  .presentation-nav-btn span {
+    display: none;
+  }
+  .slide-card {
+    padding: 2rem;
+  }
+  .slide-heading {
+    font-size: 2rem;
+  }
+  .slide-content {
+    font-size: 1.125rem;
+  }
+}
