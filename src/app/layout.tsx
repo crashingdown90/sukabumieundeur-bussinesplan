@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import PinProtector from "@/components/PinProtector";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"] });
 
@@ -19,20 +20,7 @@ export default function RootLayout({
     <html lang="id">
       <body className={inter.className}>
         <PinProtector>
-          <header className="header-nav">
-            <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <img src="/images/Logo_Sukabumi Endeur.png" alt="Sukabumi Eundeur Holding" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
-            </a>
-            <nav style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
-              <a href="/" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Unit Bisnis</a>
-              <a href="/business-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Business Model</a>
-              <a href="/investment-model" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Investment Model</a>
-              <a href="/team" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Management</a>
-              <a href="/roadmap" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Roadmap</a>
-              <a href="/capex" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', fontSize: '0.95rem' }}>Financials</a>
-              <a href="#" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}>Download PDF</a>
-            </nav>
-          </header>
+          <Navbar />
           <main>{children}</main>
           <footer className="footer" style={{ textAlign: 'left', padding: '5rem 2rem 2rem 2rem' }}>
             <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '4rem', marginBottom: '4rem' }}>
