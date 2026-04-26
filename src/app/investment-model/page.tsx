@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import { Handshake, Network, Briefcase, TrendingUp, Landmark, ShieldCheck, PieChart, Users } from 'lucide-react';
+import { Zap, AudioWaveform, Disc, Mic2, Guitar, Flame, Headphones } from 'lucide-react';
 
 export default function InvestmentModelPage() {
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function InvestmentModelPage() {
         <div className="hero-content animate-on-scroll opacity-0" style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
             <div style={{ background: 'rgba(249, 115, 22, 0.1)', padding: '1rem', borderRadius: '50%', color: 'var(--accent)' }}>
-              <Handshake size={48} />
+              <Zap size={48} />
             </div>
           </div>
           <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '1rem', color: 'white' }}>Pola Investasi & Kemitraan Strategis</h1>
@@ -40,7 +40,7 @@ export default function InvestmentModelPage() {
       <section className="section" style={{ background: '#f8fafc', padding: '6rem 2rem' }}>
         <div className="animate-on-scroll opacity-0" style={{ maxWidth: '1000px', margin: '0 auto' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem', justifyContent: 'center' }}>
-            <Network size={32} color="var(--accent)" />
+            <AudioWaveform size={32} color="var(--accent)" />
             <h2 className="section-title" style={{ margin: 0 }}>Desentralisasi Operasional Bisnis</h2>
           </div>
           <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: '1.125rem', marginBottom: '4rem', lineHeight: '1.8' }}>
@@ -51,7 +51,7 @@ export default function InvestmentModelPage() {
             
             <div style={{ background: 'white', padding: '2.5rem', borderRadius: '24px', border: '1px solid var(--border)', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.05)' }}>
               <div style={{ background: '#fff7ed', width: '60px', height: '60px', borderRadius: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ea580c', marginBottom: '1.5rem' }}>
-                <PieChart size={32} />
+                <Disc size={32} />
               </div>
               <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '1rem' }}>Sistem Ekosistem Terbuka</h3>
               <p style={{ color: 'var(--muted)', lineHeight: '1.7' }}>
@@ -61,7 +61,7 @@ export default function InvestmentModelPage() {
 
             <div style={{ background: 'white', padding: '2.5rem', borderRadius: '24px', border: '1px solid var(--border)', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.05)' }}>
               <div style={{ background: '#eff6ff', width: '60px', height: '60px', borderRadius: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2563eb', marginBottom: '1.5rem' }}>
-                <Briefcase size={32} />
+                <Mic2 size={32} />
               </div>
               <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '1rem' }}>Kerja Sama Operasional (KSO)</h3>
               <p style={{ color: 'var(--muted)', lineHeight: '1.7' }}>
@@ -77,7 +77,7 @@ export default function InvestmentModelPage() {
       <section className="section" style={{ background: 'white', padding: '6rem 2rem' }}>
         <div className="animate-on-scroll opacity-0" style={{ maxWidth: '1000px', margin: '0 auto' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '4rem', justifyContent: 'center' }}>
-            <TrendingUp size={32} color="#10b981" />
+            <Flame size={32} color="#10b981" />
             <h2 className="section-title" style={{ margin: 0 }}>Opsi Skema Investasi</h2>
           </div>
 
@@ -85,7 +85,7 @@ export default function InvestmentModelPage() {
             
             <div style={{ padding: '2.5rem', border: '1px solid var(--border)', borderRadius: '24px', background: 'white', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
               <div style={{ flex: '0 0 auto', background: '#f1f5f9', padding: '1.5rem', borderRadius: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Landmark size={40} color="#475569" />
+                <Guitar size={40} color="#475569" />
               </div>
               <div style={{ flex: '1 1 300px' }}>
                 <div style={{ display: 'inline-block', background: '#e0e7ff', color: '#4338ca', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.75rem' }}>KONTRAK MASIF</div>
@@ -98,7 +98,7 @@ export default function InvestmentModelPage() {
 
             <div style={{ padding: '2.5rem', border: '1px solid var(--border)', borderRadius: '24px', background: 'white', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
               <div style={{ flex: '0 0 auto', background: '#fff7ed', padding: '1.5rem', borderRadius: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Users size={40} color="#ea580c" />
+                <Flame size={40} color="#ea580c" />
               </div>
               <div style={{ flex: '1 1 300px' }}>
                 <div style={{ display: 'inline-block', background: '#ffedd5', color: '#c2410c', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.75rem' }}>OPERASIONAL AKTIF</div>
@@ -111,7 +111,7 @@ export default function InvestmentModelPage() {
 
             <div style={{ padding: '2.5rem', border: '1px solid var(--border)', borderRadius: '24px', background: 'white', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
               <div style={{ flex: '0 0 auto', background: '#ecfdf5', padding: '1.5rem', borderRadius: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <ShieldCheck size={40} color="#10b981" />
+                <Headphones size={40} color="#10b981" />
               </div>
               <div style={{ flex: '1 1 300px' }}>
                 <div style={{ display: 'inline-block', background: '#d1fae5', color: '#047857', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 700, marginBottom: '0.75rem' }}>MODAL PASIF</div>
